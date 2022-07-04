@@ -1,0 +1,5 @@
+CRUD
+C   -------->create
+R ------------>Retrive
+U -------------->Update
+D -------------->Delete

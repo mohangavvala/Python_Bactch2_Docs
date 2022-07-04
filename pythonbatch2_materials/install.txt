@@ -1,0 +1,16 @@
+
+downlaod virtual box:
+---------------------
+https://www.virtualbox.org/wiki/Downloads
+
+Install virtualbox:
+---------------------
+https://data-flair.training/blogs/install-virtualbox/
+
+downlaod ubuntu:
+----------------
+https://ubuntu.com/download/desktop
+
+install ubuntu on virtual box:
+-------------------------------
+https://www.geeksforgeeks.org/how-to-install-ubuntu-on-virtualbox/#:~:text=Step%201%3A%20Open%20VirtualBox%20and,the%20machine%20to%20store%20files.

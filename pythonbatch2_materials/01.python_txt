@@ -1,0 +1,92 @@
+Python Programing :
+===================
+Python is a Genaral purpouse High level programing Language
+
+Father of Python Guido Van Rosaam  (1989)  1991
+
+Why python programing is popular:
+=================================
+1.Simple and easy 
+2.Data Science ,Web Applications, Desktop Applications, IOT, Automation e.t.c
+3.Consize code 
+4.Data Analysis
+
+Python supports all the programing features:
+===========================================
+Python is a functional programing language these features broughh from c programing
+Python is Object oriented programing  these features brough from C++ and java
+Pythono is Scripting language these 	features brough from Perl,shell script
+Python modular programing language these features brough from Modula 3
+
+
+Python is Freeware and Open source:
+====================================
+
+Freeware : We didn't pay any ammount for Licence realted things
+Open source: Source code is open to every one
+
+.net application python programing is modified and it is renamed into IronPython
+Java application python programing is modified and it is renamed into JavaPython
+
+Anacoda python  which is used for Bigdata application
+PyPY is increase  speed of python 
+
+Python is platform independent:
+================================
+We can write the code in any os and run your code in any os
+
+
+Python Versions:
+===============
+Python 0.1
+..
+.
+
+.
+python 2.9
+....
+
+
+Python 3  is updated version
+
+
+Python IDLE:
+===========
+I integrated
+D  Development
+L Learning 
+E Enivironnment
+
+
+REPL:
+====
+
+Read
+Evaluate
+Print
+Loop
+
+"Hello"
+
+How we can Exicute Python code:
+===============================
+Python IDLE
+Text Edtiors
+
+IDEs (Integrated Development Enivironnment):
+===========================================
+PyCharm
+ATOM
+Google Colab
+Jupiter Note book
+e.t.c
+
+
+
+Identifiers
+Keywords
+Data Types
+Loops
+Functions
+oops
+exceptions

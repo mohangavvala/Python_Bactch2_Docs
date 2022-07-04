@@ -1,0 +1,10 @@
+str1=input("enter first string:")
+str2=input("enter second string:")
+str3=''
+str4=''
+for x in str1:#HELLO
+    print(x)
+    if x not in str2:#HAI
+        str3=''+x
+print(str3)
+

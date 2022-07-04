@@ -1,0 +1,156 @@
+Git and Git hub:
+----------------
+Git is version control system  in local machine
+Git hub is Remote repository
+
+
+git init ------------> git intilization
+git add --------------> to add code to the stageing area
+git status ------------->check the status of git
+git commit -m "it is version 2 of test.py "  -------->code moved to local repo
+git push ------------------>code moved to remote repo i,e git hub
+
+git clone ----------------->remote repo to local repo
+
+
+
+eg:
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git
+$ pwd
+/f/Testing Git
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git
+$ ls
+python_documents/
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git
+$ cd python_documents/
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git/python_documents
+$ ls
+01python.txt
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git/python_documents
+$ cd ..
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git
+$ pwd
+/f/Testing Git
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git
+$ git init
+Initialized empty Git repository in F:/Testing Git/.git/
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        python_documents/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git (master)
+
+eg:
+
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git
+$ pwd
+/f/Testing Git
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git
+$ ls
+python_documents/
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git
+$ cd python_documents/
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git/python_documents
+$ ls
+01python.txt
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git/python_documents
+$ cd ..
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git
+$ pwd
+/f/Testing Git
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git
+$ git init
+Initialized empty Git repository in F:/Testing Git/.git/
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        python_documents/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git (master)
+$
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        python_documents/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git (master)
+$ git add .
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   python_documents/01python.txt
+
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git (master)
+$ git commit -m 'it is firstversion of python'
+[master (root-commit) 954dd91] it is firstversion of python
+ 1 file changed, 9203 insertions(+)
+ create mode 100644 python_documents/01python.txt
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git (master)
+$ git remote add origin https://github.com/mohangavvala/python_batch_2.git
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/mohangavvala/python_batch_2.git'
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git (master)
+$ git push -f origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/mohangavvala/python_batch_2.git'
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git (master)
+$ ^C
+
+jagan@DESKTOP-VDCL0DV MINGW64 /f/Testing Git (master)
+git push origin master --force
